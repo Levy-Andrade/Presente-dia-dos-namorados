@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente Romântico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- PÁGINA 1: Página inicial com girassóis e corações -->
+    <div id="page1" class="page active">
+        <!-- Container para girassóis animados -->
+        <div class="sunflowers-container">
+            <!-- Os girassóis serão criados dinamicamente via JavaScript -->
+        </div>
+        
+        <!-- Container para corações flutuantes -->
+        <div class="floating-hearts">
+            <!-- Os corações serão criados dinamicamente via JavaScript -->
+        </div>
+        
+        <!-- Botão principal centralizado -->
+        <div class="center-content">
+            <button id="giftButton" class="gift-button">
+                💝 Ver Presente 💝
+            </button>
+        </div>
+    </div>
+
+    <!-- PÁGINA 2: Página das cartas com contador -->
+    <div id="page2" class="page">
+        <!-- Contador no canto superior direito -->
+        <div class="counter">
+            <span id="counterText">0/16</span>
+        </div>
+        
+        <!-- Container para corações flutuantes da página 2 -->
+        <div class="floating-hearts-page2">
+            <!-- Os corações serão criados dinamicamente via JavaScript -->
+        </div>
+        
+        <!-- Grade de cartas -->
+        <div class="cards-container">
+            <!-- 10 cartas pequenas -->
+            <div class="card small-card" data-type="small" data-index="0">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <!-- PERSONALIZE AQUI: Troque as frases românticas -->
+                    <p>Você é a razão do meu sorriso todos os dias! 💖</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="1">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Meu coração bate mais forte quando você está por perto! 💓</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="2">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Você faz meus dias mais coloridos e especiais! 🌈</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="3">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Com você, cada momento se torna uma memória preciosa! ✨</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="4">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Você é meu sol em dias nublados! ☀️</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="5">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Meu amor por você cresce a cada dia que passa! 🌱</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="6">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Você é a melodia mais doce da minha vida! 🎵</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="7">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Obrigado(a) por tornar minha vida mais feliz! 😊</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="8">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Você é meu lugar favorito no mundo! 🏠</p>
+                </div>
+            </div>
+            
+            <div class="card small-card" data-type="small" data-index="9">
+                <div class="card-front">💕</div>
+                <div class="card-back">
+                    <p>Para sempre e sempre, você será meu amor! 💍</p>
+                </div>
+            </div>
+            
+            <!-- 6 cartas médias -->
+            <div class="card medium-card" data-type="medium" data-index="10">
+                <div class="card-front">📸</div>
+                <div class="card-back">
+                    <!-- PERSONALIZE AQUI: Troque pelas suas fotos -->
+                    <img src="/placeholder.svg?height=200&width=200" alt="Foto especial 1">
+                </div>
+            </div>
+            
+            <div class="card medium-card" data-type="medium" data-index="11">
+                <div class="card-front">📸</div>
+                <div class="card-back">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Foto especial 2">
+                </div>
+            </div>
+            
+            <div class="card medium-card" data-type="medium" data-index="12">
+                <div class="card-front">📸</div>
+                <div class="card-back">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Foto especial 3">
+                </div>
+            </div>
+            
+            <div class="card medium-card" data-type="medium" data-index="13">
+                <div class="card-front">📸</div>
+                <div class="card-back">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Foto especial 4">
+                </div>
+            </div>
+            
+            <div class="card medium-card" data-type="medium" data-index="14">
+                <div class="card-front">📸</div>
+                <div class="card-back">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Foto especial 5">
+                </div>
+            </div>
+            
+            <div class="card medium-card" data-type="medium" data-index="15">
+                <div class="card-front">📸</div>
+                <div class="card-back">
+                    <img src="/placeholder.svg?height=200&width=200" alt="Foto especial 6">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Container para corações que sobem ao clicar nas cartas -->
+        <div class="rising-hearts"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
